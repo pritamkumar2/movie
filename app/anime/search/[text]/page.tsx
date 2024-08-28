@@ -10,7 +10,7 @@ export default async function Search({ params }: any) {
   return (
     <main className="container grid items-center gap-6 pb-8 pt-6 md:py-10">
       <div className="flex items-center justify-between">
-        <div className="grid w-full grid-cols-1 gap-x-4 gap-y-8 md:grid-cols-3">
+        <div className="grid w-full grid-cols-2 gap-x-4 gap-y-8 md:grid-cols-3">
           {data &&
             data.results.slice(0, 18).map((item: any, index: any) => (
               <Link

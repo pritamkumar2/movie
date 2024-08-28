@@ -23,7 +23,7 @@ export function MainNav() {
   return (
     <div className="mr-4 hidden xl:flex">
       <Link href="/" className="mr-6 flex items-center space-x-2">
-        <Clapperboard className="h-6 w-6" />
+        <Clapperboard className="h-6 w-6" /> <h2>movie-watch</h2>
       </Link>
       <nav className="flex items-center gap-4 text-sm lg:gap-6">
         <NavigationMenu>

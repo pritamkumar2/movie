@@ -47,7 +47,7 @@ export const Footer = () => {
               </div>
             </div>
 
-            <p className="text-sm text-muted-foreground">Created with {`<3`} by Kushi</p>
+     
           </div>
 
           <div>
